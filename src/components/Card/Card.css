@@ -1,0 +1,189 @@
+.card {
+    box-sizing: border-box;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    width: 298px;
+    height: 496px;
+}
+
+.card_flex {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.li_card_item {
+    list-style: none;
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.li_card_item:hover {
+    color: rgb(59, 183, 126);
+}
+
+.ul_item_card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.card_title h1 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card_img_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card_img_wrapper img {
+    width: 246px;
+    height: 246px;
+    margin-top: 10px;
+    object-fit:cover;
+}
+
+.rating_card {
+    width: 60px;
+    border-radius: 15px 0px 20px 0px;
+    background: rgb(247, 75, 129);
+    padding: 5px;
+}
+
+.rating_card p {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.category {
+    color: rgb(173, 173, 173);
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text_title {
+    color: rgb(43, 43, 45);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    max-width: 268px;
+}
+
+.star_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.star_card:hover {
+    color: yellow;
+}
+
+.buy_p {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.buy_p b {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(59, 183, 126);
+}
+
+
+.price_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.card_text_content {
+    padding: 0 21px 0 ;
+}
+
+.price {
+    color: rgb(59, 183, 126);
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.old_price {
+    color: rgb(173, 173, 173);
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.price_container button {
+    color: white;
+    border-radius: 4px;
+    background: rgb(245, 62, 50);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 9px 20px 13px;
+}
+
+.price_container button:hover{
+    background: rgba(245, 62, 50, 0.8);
+}

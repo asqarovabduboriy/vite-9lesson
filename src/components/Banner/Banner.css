@@ -1,0 +1,117 @@
+.swiper_baner{
+    margin-top: 40px;
+}
+
+.img_iphone{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.bg_color_one{
+    background-color: rgb(101, 101, 179);
+}
+
+.bg_color_banner {
+    background-color: rgb(196, 225, 204);
+    width: 100%;
+    height: 417px;
+    margin-top: 73px;
+    border-radius: 20px;
+}
+
+.banner_text_content {
+    padding-top: 83px;
+    padding-left: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner_text_content h2 {
+    color: rgb(37, 61, 78);
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 529px;
+}
+
+.banner_text_content p {
+    margin-top: 20px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner_text_content span {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(59, 183, 126);
+}
+
+.banner_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top:46px ;
+}
+
+.banner_form input {
+    border-radius: 50px;
+    width: 473px;
+    background: rgb(255, 255, 255);
+    color: rgb(131, 131, 131);
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 23px 58px;
+    border: none;
+}
+
+.banner_form button {
+    position: absolute;
+    left: 290px;
+    border-radius: 50px;
+    background: rgb(245, 62, 50);
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 22px 40px;
+    border: none;
+    height: 65px;
+}
+
+
+.bg_color_two{
+    background-color:rgb(130, 135, 129) ;
+}
+
+.bg_color_there{
+    background-color: pink;
+}
+
+.bg_color_four{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg_color_five{
+    background-color: rgba(245, 222, 179, 0.2);
+}
